@@ -19,3 +19,7 @@ test:
     override:
         - (./gradlew assemble):
             timeout: 360
+
+notify:
+  webhooks:
+    - url: http://app.fossa.io/hooks/circleci
